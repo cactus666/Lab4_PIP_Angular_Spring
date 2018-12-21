@@ -1,0 +1,26 @@
+table {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+tbody {
+    border: 2px solid black;
+}
+
+thead{
+    background: #6495ED;
+}
+
+th{
+    height: 30px;
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+}
+
+td {
+    width: 20%;
+    border: 2px solid black;
+    text-align: center;
+}
+

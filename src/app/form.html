@@ -1,0 +1,29 @@
+<div class="canvas">
+    <canvas id="canvas" onclick="clickCanvas()" style="background-color:#ffffff; border-radius: 20px;" width="300" height="300"></canvas>
+</div>
+
+<div class="form">
+    <div class="input">
+        <label>X:</label>
+        <input type="number" id="formX" [(ngModel)]="x">
+    </div>
+
+    <div class="input">
+        <label>Y:</label>
+        <input type="number" id="formY" [(ngModel)]="y">
+    </div>
+
+    <div class="input">
+        <label>R:</label>
+        <input type="number" id="formR" [(ngModel)]="r">
+    </div>
+
+    <div class="input">
+        <input type="submit" id="formCheck" value="Check">
+    </div>
+</div>
+
+<input type = "hidden" id = "lol" onclick="init()"/>
+
+
+<table-app></table-app>

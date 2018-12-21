@@ -1,0 +1,9 @@
+canvas{
+    float: right;
+    margin-right: 130px;
+    border: 2px solid black;
+}
+
+.form{
+    width: 50%
+}
